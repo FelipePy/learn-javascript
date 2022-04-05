@@ -2,29 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-
-    <title>Jogo adivinhe o número</title>
-    <link rel="stylesheet" type="text/css" href="../css/home.css" />
-
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
   </head>
-
   <body>
-      <h1>Jogo adivinhe o número</h1>
-
-      <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe diremos se seu palpite foi muito alto ou muito baixo.</p>
-
-    <div class="form">
-      <label for="campoPalpite">Digite seu palpite: </label><input type="text" id="campoPalpite" class="campoPalpite">
-      <input type="submit" value="Enviar palpite" class="envioPalpite">
+    <div id="alter_title">
+      <h1 id="title">Mozilla is cool</h1>
+      <button id="button_a">Alterar título</button>
     </div>
+    
+    <img src="../images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
-    <div class="resultadoParas">
-      <p class="palpites"></p>
-      <p class="ultimoResultado"></p>
-      <p class="baixoOuAlto"></p>
-    </div>
+    <p>At Mozilla, we’re a global community of</p>
 
-    <script type="text/javascript" src="../javascript/game.js"></script>
+    <ul> <!-- changed to list in the tutorial -->
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
 
+    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+
+    <button id="alter_user">Mudar usuário</button>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
